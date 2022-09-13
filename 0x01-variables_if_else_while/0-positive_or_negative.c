@@ -9,28 +9,20 @@
 /**
 
  * main - print if the number is positive, negative and zero
-
  *
-
  * Description: Using the main function
-
  * this program prints "Programming is positive, negative and zero"
-
  * Return: 0
-
  */
 
 int main(void)
 
 {
 
-	int n;
+int n;
 
-
-
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 
