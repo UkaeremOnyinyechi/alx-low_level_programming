@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * main - test functions that prints if integers are positive or negative
@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int i;
+int i;
 
-	i = 0;
-	positive_or_negative(i);
+i = 0;
+positive_or_negative(i);
 
-	return (0);
+return (0);
 }
